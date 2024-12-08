@@ -18,10 +18,10 @@ class CustomException(Exception):
         return self.error_message
 
 # TEST 
-if __name__ == "__main__":
-    try:
-        a = 1/0
-    except Exception as e:
-        logging.info("Divide by Zero")
-        raise CustomException(e, sys)
+# if __name__ == "__main__":
+#     try:
+#         a = 1/0
+#     except Exception as e:
+#         logging.info("Divide by Zero")
+#         raise CustomException(e, sys)
         
